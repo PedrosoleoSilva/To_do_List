@@ -15,6 +15,8 @@ export const styles = StyleSheet.create({
   form: {
     width: "100%",
     paddingHorizontal: 16,
-    marginTop: 30
+    marginTop: 30,
+    gap: 10
+
   }
 });
