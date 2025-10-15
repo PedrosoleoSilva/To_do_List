@@ -20,6 +20,9 @@ export  function Home() {
           onPress={()=> console.log("Tarefa adicionada com suceesso!")}
         />
       </View>
+      <View style={styles.content}>
+
+      </View>
     </View>
   );
 }
