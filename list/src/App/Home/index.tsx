@@ -9,6 +9,7 @@ import Button from '@/components/Button';
 export  function Home() {
   return (
     <View style={styles.container}>
+      <StatusBar/>
       <Image style={styles.logo} source={require("@/assets/logo.png")} />
       <View style={styles.form}>
         <Input
