@@ -3,6 +3,8 @@ import { StyleSheet, Text, View, Image } from 'react-native';
 import {styles} from "./styles"
 import Input from '@/components/Input';
 import Button from '@/components/Button';
+import Filter from '@/components/Filter';
+import { FilterStatus } from '@/types/FilterStatus';
 
 
 
@@ -21,6 +23,7 @@ export  function Home() {
         />
       </View>
       <View style={styles.content}>
+        <Filter status={FilterStatus.COMPLETED} isActive/>
 
       </View>
     </View>
