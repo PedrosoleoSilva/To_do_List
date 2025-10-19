@@ -23,6 +23,25 @@ export const styles = StyleSheet.create({
     width: "100%",
     backgroundColor: "#c4c2",
     borderTopLeftRadius: 24,
-    borderTopRightRadius: 24
+    borderTopRightRadius: 24,
+    padding: 24,
+    marginTop: 24,
+     paddingTop: 32
+  },
+  header: {
+    flexDirection: 'row',
+    width: "100%",
+    gap: 12,
+    borderBottomWidth: 1,
+    borderBlockColor: "",
+    paddingBottom: 12,
+  },
+  clearButton: {
+    marginLeft: 'auto'
+  },
+  clearText: {
+    fontSize: 12,
+    fontWeight: 600,
+    color: "#828282",
   }
 });
